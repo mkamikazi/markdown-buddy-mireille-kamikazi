@@ -31,7 +31,7 @@ markdown-buddy-mireille-kamikazi/
     └── 01_synthetic_summary.R
 ```
 
-Replace `[yourname]` in the GitHub repository name with your GitHub username.
+Replace `mirelle-kamikazi` in the GitHub repository name with your GitHub username.
 
 ## Dataset
 
