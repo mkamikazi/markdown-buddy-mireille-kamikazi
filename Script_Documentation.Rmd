@@ -1,0 +1,93 @@
+---
+title: "Script Documentation: Synthetic Study Habits Analysis"
+author: "Mireille Kamikazi"
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    toc: true
+    toc_depth: 2
+---
+
+<!-- AI Assistance Declaration:
+AI Assistance Declaration: I used ChatGPT (GPT-6, November 18, 2026) for documentation
+planning and Markdown/R Markdown formatting suggestions. Prompts used: see Appendix.md.
+I verified the document structure against the assignment instructions. I must complete
+and run the R script, knit this file, and independently verify all calculations myself.
+All final calculations are done by myself. I am responsible for accuracy and originality.
+-->
+
+# Purpose
+
+The script `R/01_synthetic_summary.R` is intended to explore a fictional dataset containing weekly study hours, class attendance rates, and assessment scores. It demonstrates a basic, reproducible data-analysis workflow using R.
+
+# Inputs
+
+## Data file
+
+`data/synthetic_student_data.csv`
+
+## Variables
+
+| Variable | Description |
+|---|---|
+| `student_id` | Fictional student record identifier |
+| `weekly_study_hours` | Typical weekly study time in hours |
+| `attendance_rate` | Percentage of classes attended |
+| `assessment_score` | Assessment score on a 0–100 scale |
+
+# Dependencies
+
+The intended starter workflow uses base R functions. No external packages are required.
+
+# Processing Steps
+
+1. Import the CSV file from the repository's `data` directory.
+2. Inspect the dataset structure and summary.
+3. Check dimensions, missing values, and valid value ranges.
+4. Calculate descriptive statistics.
+5. Explore the relationship between weekly study hours and assessment scores.
+6. Record and validate the results.
+
+# Example Code
+
+The following is an example of how the input file can be loaded from the repository root:
+
+```{r, eval=FALSE}
+student_data <- read.csv("data/synthetic_student_data.csv")
+head(student_data)
+str(student_data)
+summary(student_data)
+```
+
+The example is not a substitute for completing the TODO steps in `R/01_synthetic_summary.R`. Run the finished script and verify the output before reporting findings.
+
+# Outputs
+
+The completed script is expected to provide:
+
+- Dataset inspection information.
+- Descriptive statistics for the three numeric measures.
+- A scatter plot for weekly study hours and assessment scores.
+- A short, cautious interpretation of the observed pattern.
+
+No numerical findings are stated here because they must be calculated by the student and independently checked.
+
+# Validation and Limitations
+
+Use the required verification pattern:
+
+1. Perform the primary calculation in a spreadsheet.
+2. Independently cross-check the result.
+3. Complete a peer or self spot-check.
+
+The data are synthetic and small. Any pattern in this dataset is illustrative only and must not be interpreted as evidence that study time causes a particular assessment result.
+
+# How to Run
+
+From the repository root in RStudio, open and run:
+
+```{r, eval=FALSE}
+source("R/01_synthetic_summary.R")
+```
+
+After completing the script, knit this `.Rmd` file in RStudio or Posit Cloud and inspect the rendered document for errors.
