@@ -23,7 +23,7 @@ Professional verification should be systematic and independent. First, read the 
 - Spreadsheet primary calculations completed: Yes
 - Independent cross-check completed: Yes
 - Peer or self spot-check completed: Yes
-- README previewed on GitHub: No
+- README previewed on GitHub: YES
 - R Markdown knitted and rendered output reviewed: Yes
 - Changes made after verification: Corrected the student count formula in Excel, independently verified the descriptive statistics and correlation, and reviewed the rendered HTML documentation.
 
