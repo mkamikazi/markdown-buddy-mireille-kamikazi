@@ -20,7 +20,7 @@ The project is designed to demonstrate a clear, reproducible workflow for import
 ## Repository Structure
 
 ```text
-markdown-buddy-[yourname]/
+markdown-buddy-mireille-kamikazi/
 ├── README.md
 ├── Reflection.md
 ├── Appendix.md
